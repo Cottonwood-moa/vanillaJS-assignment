@@ -8,8 +8,8 @@ export default class Component {
     this.$target = $target;
     this.$props = $props;
     this.setup();
-    this.setEvent(); // constructor에서 한 번만 실행한다.
     this.render();
+    this.setEvent(); // constructor에서 한 번만 실행한다.
   }
   // state setup
   setup() {}
